@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #86cc7c;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header img {
+  max-width: 60px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+.name-header {
+  margin: 10px 0 0;
+  font-size: 24px; 
+  text-align: center;
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  gap: 10px; 
+}
+
+.nav-link {
+  margin-right: 8px;
+  padding-right: 20px;
+}
+
+
+
+h1 {
+  display: inline;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 20px; 
+}
+
+.lousa {
+  border: 5px solid green;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  width: 80%; 
+  height: 300px; 
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.lousa-container {
+  margin: 20px; 
+}
+
+.text {
+  font-size: 50px; 
+  max-height: 80%; 
+  overflow: hidden;
+}
+
+.movie-text {
+  font-size: 50px; 
+  max-height: 100%;
+}
+
+.proximo-filme {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.proximo-filme p {
+  margin: 0;
+}
+
+.proximo-filme button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;  
+}
+
+.proximo-filme button:hover {
+  background-color: #555;
+}
+
+.next-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.next-button:hover {
+  background-color: #555;
+}
+
+
+/* HEADER   */
+
+/* HEADER   */
+
+
+/* FOOTER  */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-footer img {
+  width: 50px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* FOOTER  */
+
+
+
+.home-container {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #333;
+  background-color: #86cc7c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.category-link:hover {
+  background-color: #5eab5e;
+  color: white;
+}
